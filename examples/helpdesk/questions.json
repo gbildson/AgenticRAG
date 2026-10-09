@@ -1,0 +1,26 @@
+[
+  {
+    "id": "h001",
+    "question": "When can an employee get a replacement device?",
+    "required_tools": ["search_documents"],
+    "expected_terms": ["two business days"]
+  },
+  {
+    "id": "h002",
+    "question": "Which laptops are currently available?",
+    "required_tools": ["query_database"],
+    "expected_terms": ["CedarBook"]
+  },
+  {
+    "id": "h003",
+    "question": "Ticket 101 is about a broken laptop. Is a replacement automatic, and which laptops are available?",
+    "required_tools": ["query_database", "search_documents"],
+    "expected_terms": ["repair", "CedarBook"]
+  },
+  {
+    "id": "h004",
+    "question": "What should I do if I cannot use my registered second factor to reset my password?",
+    "required_tools": ["search_documents"],
+    "expected_terms": ["identity"]
+  }
+]

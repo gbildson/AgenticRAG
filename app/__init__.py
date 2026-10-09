@@ -1,0 +1,1 @@
+"""Local agentic RAG application."""
